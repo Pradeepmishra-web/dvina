@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "10"
+mappingDefinitions:
+  DEMO1:
+    database: MISHRA
+    schema: WORKDEV
+  TGT:
+    database: DEMO_QA
+    schema: DEMOTGT_SCHEMA
+name: demo_QA
+type: Environment
