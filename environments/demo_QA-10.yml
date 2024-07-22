@@ -6,6 +6,6 @@ mappingDefinitions:
     schema: WORKDEV
   TGT:
     database: DEMO_QA
-    schema: PUBLIC
+    schema: DEMOTGT_SCHEMA
 name: demo_QA
 type: Environment
