@@ -4,6 +4,9 @@ mappingDefinitions:
   DEMO1:
     database: MISHRA
     schema: WORKDEV
+  TEST_STORAGE:
+    database: DEMO_QA
+    schema: DEMOTGT_SCHEMA
   TGT:
     database: DEMO_QA
     schema: DEMOTGT_SCHEMA
