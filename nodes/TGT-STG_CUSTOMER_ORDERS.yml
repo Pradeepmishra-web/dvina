@@ -12,7 +12,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: DEMO1
+  locationName: TGT
   materializationType: table
   metadata:
     appliedNodeTests: []
