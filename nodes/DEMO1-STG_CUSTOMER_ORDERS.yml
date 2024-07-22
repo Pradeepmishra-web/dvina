@@ -258,7 +258,9 @@ operation:
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
-      - aliases: {}
+      - aliases:
+          CUSTOMER: 619a0913-f136-44de-bbab-3d30e4ae690b
+          ORDERS: b376dbc6-e12f-493b-a437-3599efb56080
         customSQL:
           customSQL: ""
         dependencies:
@@ -270,7 +272,7 @@ operation:
           joinCondition: |-
             FROM {{ ref('DEMO1', 'CUSTOMER') }} "CUSTOMER"
             INNER JOIN {{ ref('DEMO1', 'ORDERS') }} "ORDERS"
-            ON "CUSTOMER"./*COLUMN*/ = "ORDERS"./*COLUMN*/
+            ON "CUSTOMER".C_CUSTKEY = "ORDERS".O_CUSTKEY
         name: STG_CUSTOMER_ORDERS
         noLinkRefs: []
   name: STG_CUSTOMER_ORDERS
