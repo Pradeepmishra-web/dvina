@@ -2,8 +2,8 @@ fileVersion: 1
 id: "11"
 mappingDefinitions:
   DEMO1:
-    database: MISHRA
-    schema: WORKDEV
+    database: MISHRA_PROD
+    schema: PROD_SCHEMA
   TGT:
     database: MISHRA_PROD
     schema: PROD_SCHEMA_TGT
