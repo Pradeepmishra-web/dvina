@@ -5,7 +5,7 @@ mappingDefinitions:
     database: MISHRA
     schema: WORKDEV
   TGT:
-    database: DEMO_QA
-    schema: DEMOTGT_SCHEMA
+    database: MISHRA_PROD
+    schema: PROD_SCHEMA
 name: demo_QA
 type: Environment

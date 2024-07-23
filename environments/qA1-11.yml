@@ -2,10 +2,10 @@ fileVersion: 1
 id: "11"
 mappingDefinitions:
   DEMO1:
-    database: SNOWFLAKE_SAMPLE_DATA
-    schema: TPCH_SF1
+    database: MISHRA_PROD
+    schema: PROD_SCHEMA
   TGT:
-    database: DEMO_QA
-    schema: DEMOTGT_SCHEMA
+    database: MISHRA_PROD
+    schema: PROD_SCHEMA_TGT
 name: qA1
 type: Environment
