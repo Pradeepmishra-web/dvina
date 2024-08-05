@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "2"
+includeSelector: "+{ location: TGT name: FCT_ORDERS_DETAILS }"
+name: factorderdetail_job
+type: Job
